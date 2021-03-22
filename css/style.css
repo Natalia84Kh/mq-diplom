@@ -40,7 +40,7 @@ body {
   padding-top: 30px;
   z-index: 1;
 
-  background-image: url("img/banner-bg.jpg");
+  background-image: url("../img/banner-bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -415,7 +415,7 @@ img {
   padding-bottom: 20px;
   box-sizing: border-box;
   border-style: none;
-  background-image: url("svg/search.svg");
+  background-image: url("../svg/search.svg");
   background-repeat: no-repeat;
   background-size: 18px;
   background-position: center center;
@@ -680,23 +680,23 @@ img {
 }
 
 .footer-list-item-twitter {
-  background-image: url("svg/004-twitter.svg");
+  background-image: url("../svg/004-twitter.svg");
 }
 
 .footer-list-item-pinterest {
-  background-image: url("svg/001-pinterest.svg");
+  background-image: url("../svg/001-pinterest.svg");
 }
 
 .footer-list-item-facebook {
-  background-image: url("svg/002-facebook-logo.svg");
+  background-image: url("../svg/002-facebook-logo.svg");
 }
 
 .footer-list-item-instagram {
-  background-image: url("svg/005-instagram.svg");
+  background-image: url("../svg/005-instagram.svg");
 }
 
 .footer-list-item-tumblr {
-  background-image: url("svg/003-tumblr.svg");
+  background-image: url("../svg/003-tumblr.svg");
 }
 
 .footer-list-item:nth-child(n + 2) {
