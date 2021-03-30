@@ -65,7 +65,7 @@ body {
 
 .wrapper {
   max-width: 1170px;
-  min-width: 300px;
+  /* min-width: 300px; */
   margin: 0 auto;
 }
 
@@ -75,7 +75,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  min-width: 769px;
+  min-width: 641px;
   max-width: 1200px;
   z-index: 1;
 }
@@ -129,7 +129,7 @@ body {
 
 .header-intro {
   margin: 0 auto;
-  margin-top: 18%;
+  margin-top: 125px;
   text-align: center;
 }
 
@@ -139,7 +139,7 @@ body {
   font-size: calc(1.16vw + 31px);
   font-weight: 700;
   line-height: 1.6;
-  max-width: 690px;
+  max-width: 670px;
   text-transform: uppercase;
 }
 
@@ -190,10 +190,7 @@ body {
   width: 100%;
   height: 100%;
   display: block;
-  background-repeat: no-repeat;
   background-color: #000000;
-  background-size: cover;
-  background-position: center;
   opacity: 0.6;
   position: absolute;
   z-index: 1;
@@ -203,18 +200,30 @@ body {
 
 .trends-content-first {
   background-image: url("../img/trend1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .trends-content-second {
   background-image: url("../img/trend2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .trends-content-third {
   background-image: url("../img/trend3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .trends-content-fourth {
   background-image: url("../img/trend4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .trends-info {
@@ -418,7 +427,7 @@ img {
 }
 
 .aside-article-content {
-  width: 180px;
+  width: 100%;
   margin-left: 20px;
 }
 
@@ -785,16 +794,16 @@ img {
 }
 /*конец блока footer*/
 
-@media screen and (max-width: 768px) {
+@media (min-width: 640px) and (max-width: 1199px) {
   
   .header-wrap {
-    padding-bottom: 16%;
+    padding-bottom: 125px;
   }
 
   .header-wrapper {
     padding: 0 35px;
-    max-width: 768px;
-    min-width: 260px;
+    max-width: 1200px;
+    min-width: 500px;
 }
 
   .header-nav {
@@ -806,16 +815,16 @@ img {
   }
 
   .header-intro {
-    margin-top: 15%;
+    margin-top: 100px;
   }
 
   .header-intro-title {
-    /* padding: 0 25px; */
-    font-size: calc(3.5vw + 13px);
+    padding: 0 80px;
+    font-size: 40px;
   }
 
   .trends-wrap {
-    margin-top: calc(1vw + 37px);
+    margin-top: 45px;
   }
 
   .container-trends {
@@ -829,11 +838,11 @@ img {
   }
 
   .main-trends-title {
-    font-size: calc(.5vw + 14px);
+    font-size: 18px;
   }
 
   .tag-item {
-    font-size:calc(1vw + 6px);
+    font-size:14px;
   }
 
   .trends-content:nth-child(n+3) {
@@ -845,17 +854,17 @@ img {
   }
 
   .trends-image-title {
-    font-size:calc(1vw + 9px);
-    padding: 0 5% 10% 10%;
+    font-size:17px;
+    padding: 0 0 35px 33px;
   }
 
   .trends-tag {
-    padding-top: 11%;
-    padding-left: 10%;
+    padding-top: 38px;
+    padding-left: 35px;
 }
 
   .main-aside-wrapper {
-    padding: 0 4.5%;
+    padding: 0 35px;
     margin-top: 50px;
   }
 
@@ -903,20 +912,18 @@ img {
   }
 
   .main-article-title {
-    font-size: calc(1vw + 9px)
+    font-size: 17px;
   }
 
   .main-article-address {
-    margin-top: 9%;
     width: 100%;
   }
 
   .main-article-content {
     margin-top: 9%;
-    font-size: calc(.5vw + 11px);
   }
 
-  .aside-article-imag {
+  .aside-article-image {
     width: 26%;
   }
 
@@ -929,7 +936,7 @@ img {
   }
 
   .time {
-    font-size: calc(.7vw + 6px);
+    font-size: 12px;
   }
 
   .search-form-field {
@@ -937,7 +944,7 @@ img {
   }
 
   .aside-shop {
-    padding: 0 4.5%;
+    padding: 0 35px;
   }
 
   .our-products-container {
@@ -948,8 +955,8 @@ img {
 
   .product-card {
     /* width: calc(50% - 20px); */
-    /* width: 335px; */
     width: 48%;
+    /* max-width: 335px; */
     margin-bottom: 55px;
   }
 
@@ -963,27 +970,26 @@ img {
 
   .main-trends-title {
     font-size: 18px;
+  } 
+
+}
+
+@media (min-width: 640px) and (max-width: 1199px) and (orientation: landscape) {
+
+  .trends-content {
+    width: calc(25% - 5px);
   }
 
-  .product-name {
-    font-size: calc(1vw + 9px);
+  .trends-content:nth-child(n+3) {
+    margin-top: 0;
+  }
+  
+  .trends-image-title {
+    font-size:12px;
+    padding: 0 0 15px 15px;
   }
 
-  .product-desc {
-    font-size: calc(0.7vw + 10px);
-  }
-
-  .product-price {
-    font-size:calc(1.5vw + 8px);
-  }
-
-  .product-price-old {
-    font-size: calc(1vw + 6px);
-  }
-
-  .product-card-button {
-    width: 49%;
-    font-size: 1.8vw;
-  }
-
+  .trends-tag {
+    padding-left: 15px;
+}
 }
