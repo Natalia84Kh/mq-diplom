@@ -806,7 +806,6 @@ img {
   width: 390px;
   background-color: white;
   margin: auto;
-  margin-top: 240px;
   padding: 55px 30px;
   box-sizing: border-box;
 }
@@ -836,7 +835,7 @@ img {
   margin-bottom: 10px;
 }
 
-span + .radio-group {
+.radio-group {
   display: inline-block;
   margin-right: 35px;
 }
@@ -866,8 +865,7 @@ span + .radio-group {
 
 .textarea-field {
   margin-top: 10px;
-  min-width: 100%;
-  max-width: 100%;
+  width: 100%;
   min-height: 130px;
   max-height: 130px;
   background-color: #f4f7f6;
