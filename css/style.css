@@ -787,7 +787,7 @@ img {
 /*начало блока popup*/
 
 .hidden {
-  /* display: none; */
+  display: none;
 }
 
 .popup-wrap {
