@@ -1023,10 +1023,10 @@ cursor: pointer;
     bottom: 0;
     left: 0;
   }
-/* 
-  .main-article:last-child::after {
+
+  .main-content:last-child .main-article::after {
     display: none;
-  } */
+  }
 
   .main-article-title {
     font-size: 17px;
